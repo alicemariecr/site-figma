@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: rgb(0, 130, 195, 1);
+    line-height: 1.4;
+}
+
+.login {
+    width: 350px;
+    padding: 30px;
+    background-color: rgb(137, 216, 255)
+    border-radius 10px;
+    border: 1px solid #ccc;
+
+}
+.login input {
+    width: 100%; /*Faz a caixinha ocupar 100% da largura disponível.*/
+    padding: 8px; /*Cria um espaço dentro da caixinha, entre o texto e a borda.*/
+    margin-top: 5px; /*Cria 5px de espaço acima da caixinha, para ela não ficar grudada no texto "Usuário" ou "Senha".*/
+    border: 1px solid #ccc; /*Coloca uma borda fina e cinza na caixinha.*/
+    border-radius: 5px; /*Deixa os cantos arredondados.*/
+
+    /* Faz o padding ficar dentro da largura */
+    box-sizing: border-box;
+}
+.login button {
+    width: 100%;
+
+    /* Espaço dentro do botão */
+    padding: 2px; /*O padding é o espaço  que fica dentro do elemento, entre o conteúdo e a borda.*/
+
+    /* Espaço acima do botão */
+    margin-top: 20px;
+
+    /* Cor do botão */
+    background-color: rgba(0, 130, 195, 1);
+
+    /* Cor do texto */
+    color: rgb(255, 255, 255);
+
+    /* Remove a borda */
+    border: none;
+
+    /* Arredonda os cantos */
+    border-radius: 5px;
+
+     /* Tamanho da escrita */
+    font-size: 30px;
+}
