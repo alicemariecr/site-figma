@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <!-- Faz a pagina se adaptar a diferentes tamanhos de tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Nome que aparece na aba do navegador -->
+    <title>Login</title>
+
+    <!-- Liga o arquivo HTML ao arquivo CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+    <!--
+        CAIXA PRINCIPAL DO LOGIN
+
+        Esta e a caixa maior que vai
+        envolver todo o conteudo do login.
+    -->
+    <div class="login">
+
+
+        <!-- Titulo principal -->
+        <h1>Login</h1>
+
+
+        <!-- Texto que aparece abaixo do titulo -->
+        <p>Entre na sua conta</p>
+
+
+        <!--
+            CAIXA INTERNA
+
+            Esta e uma segunda caixa que fica
+            dentro da caixa principal.
+
+            Dentro dela ficarao:
+            - Usuario
+            - Senha
+            - Botao Entrar
+        -->
+        <div class="caixa-login">
+
+
+            <!-- Formulario de login -->
+            <form>
+
+
+                <!--
+                    LABEL DO USUaRIO
+
+                    O "for" identifica qual campo
+                    pertence a este texto.
+                -->
+                <label for="usuario">
+                   <br> Usuario
+                </label>
+
+
+                <!--
+                    CAMPO DE USUaRIO
+
+                    type="text" permite digitar texto.
+                    id identifica o campo.
+                    placeholder mostra uma mensagem
+                    dentro do campo.
+                -->
+                <input
+                    type="text"
+                    id="usuario"
+                    name="usuario"
+                    placeholder="Digite seu usuário"
+                >
+
+
+                <!-- Label da senha -->
+                <label for="senha">
+                  <br>  Senha
+                </label>
+
+
+                <!--
+                    CAMPO DE SENHA
+
+                    type="password" faz com que
+                    os caracteres digitados aparecam
+                    escondidos.
+                -->
+                <input
+                    type="password"
+                    id="senha"
+                    name="senha"
+                    placeholder="Digite sua senha"
+                >
+
+
+                <!--
+                    BOTaO
+
+                    type="submit" indica que o botao
+                    sera utilizado para enviar
+                    o formulario.
+                -->
+                <button type="submit"> <br>
+                   Entrar
+                </button>
+
+
+            </form>
+
+
+        </div>
+
+
+        <!-- Link para recuperar a senha -->
+        <a href="#">
+            Esqueci minha senha
+        </a>
+
+
+        <!--
+            Texto para quem ainda nao possui
+            uma conta.
+        -->
+        <p>
+
+            Ainda nao possui uma conta?
+
+            <!-- Link para cadastro -->
+            <a href="#">
+                Cadastre-se
+            </a>
+
+        </p>
+
+
+    </div>
+
+
+</body>
+
+</html>
